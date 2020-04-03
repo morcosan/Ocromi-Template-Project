@@ -1,0 +1,12 @@
+{
+    "name": "ocromi-template-project",
+    "version": "0.0.1",
+    "description": "A template project",
+    "author": "Morco",
+    "license": "MIT",
+    "scripts": {
+    },
+    "dependencies": {
+        "ocromi": "^0.1.0"
+    }
+}
