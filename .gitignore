@@ -2,6 +2,10 @@
 .thumbs.db
 node_modules
 
+# Local env files
+.env.local
+.env.*.local
+
 # Log files
 npm-debug.log*
 yarn-debug.log*
@@ -15,3 +19,6 @@ yarn-error.log*
 *.sln
 .vscode
 *.code-workspace
+
+# Output
+dist
