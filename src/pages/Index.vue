@@ -5,15 +5,15 @@
    @Component({
       components: {},
    })
-   export default class App extends Vue {}
+   export default class Index extends Vue {}
 </script>
 
 
 <template>
-   <router-view/>
+   <div>Homepage</div>
 </template>
 
 
 <style scoped lang="scss">
-   // @import 'src/css/variables';
+   // no css yet
 </style>

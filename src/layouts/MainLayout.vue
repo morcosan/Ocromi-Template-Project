@@ -5,7 +5,7 @@
    @Component({
       components: {},
    })
-   export default class App extends Vue {}
+   export default class MainLayout extends Vue {}
 </script>
 
 

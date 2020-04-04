@@ -5,15 +5,15 @@
    @Component({
       components: {},
    })
-   export default class App extends Vue {}
+   export default class Error404 extends Vue {}
 </script>
 
 
 <template>
-   <router-view/>
+   <div>Error 404: Page not fount.</div>
 </template>
 
 
 <style scoped lang="scss">
-   // @import 'src/css/variables';
+   // no css yet
 </style>
