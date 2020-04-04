@@ -10,7 +10,7 @@
 
 
 <template>
-   <div>Homepage</div>
+   <div>{{ $locale.pageIndex }}</div>
 </template>
 
 
