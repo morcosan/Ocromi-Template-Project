@@ -4,8 +4,10 @@ import router from './router';
 import store from './store';
 import i18n from './i18n';
 import './css/app.scss';
+import { Ocromi } from 'ocromi';
 
 
+Vue.use(Ocromi);
 Vue.config.productionTip = false;
 
 new Vue({

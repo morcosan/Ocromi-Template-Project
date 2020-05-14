@@ -1,10 +1,10 @@
 <script lang="ts">
    import { Component, Vue } from 'vue-property-decorator';
-   import { YForm, YFieldText, YFieldPassword, YButtonSubmit } from 'ocromi';
+   import { YForm, YFieldText, YButtonSubmit } from 'ocromi';
 
 
    @Component({
-      components: { YForm, YFieldText, YFieldPassword, YButtonSubmit },
+      components: { YForm, YFieldText, YButtonSubmit },
    })
    export default class Index extends Vue {
 
@@ -26,7 +26,7 @@
             placeholder="email@gmail.com"
          />
 
-         <YFieldPassword
+         <YFieldText
             v-model="password"
             label="New password"
          />
