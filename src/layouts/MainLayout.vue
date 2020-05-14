@@ -1,16 +1,19 @@
 <script lang="ts">
    import { Component, Vue } from 'vue-property-decorator';
+   import { YLayout } from 'ocromi';
 
 
    @Component({
-      components: {},
+      components: { YLayout },
    })
    export default class MainLayout extends Vue {}
 </script>
 
 
 <template>
-   <router-view/>
+   <YLayout>
+      <router-view/>
+   </YLayout>
 </template>
 
 

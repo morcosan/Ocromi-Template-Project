@@ -126,5 +126,7 @@ module.exports = {
       'docs/',
       '*.js',
       'src/main.ts',
+      '../ocromi/src/**/*.stories.ts',
+      '../ocromi/src/**/*.test.ts',
    ],
 };

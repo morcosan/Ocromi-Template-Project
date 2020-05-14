@@ -4,10 +4,20 @@ import router from './router';
 import store from './store';
 import i18n from './i18n';
 import './css/app.scss';
-import { Ocromi } from 'ocromi';
+import { Ocromi, Design, DuoStyle, Spinner, Theme } from 'ocromi';
 
 
-Vue.use(Ocromi);
+Vue.use(Ocromi, {
+   theme: Theme.Light,
+   design: Design.Material,
+   button: {
+      isRounded: false,
+      isUppercase: true,
+      spinner: Spinner.Default,
+      duoStyle: DuoStyle.FilledText,
+   },
+});
+
 Vue.config.productionTip = false;
 
 new Vue({

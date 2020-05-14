@@ -21,8 +21,8 @@
       "esModuleInterop": true,
       "resolveJsonModule": true,
       "paths": {
-         "ocromi2": [
-            "../ocromi/src/main.ts"
+         "ocromi": [
+            "../ocromi"
          ]
       }
    },

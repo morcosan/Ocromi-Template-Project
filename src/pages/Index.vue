@@ -1,10 +1,10 @@
 <script lang="ts">
    import { Component, Vue } from 'vue-property-decorator';
-   import { YForm, YFieldText, YButtonSubmit } from 'ocromi';
+   import { YForm, YFieldText, YButtonSubmit, YPage } from 'ocromi';
 
 
    @Component({
-      components: { YForm, YFieldText, YButtonSubmit },
+      components: { YForm, YFieldText, YButtonSubmit, YPage },
    })
    export default class Index extends Vue {
 
@@ -16,9 +16,7 @@
 
 
 <template>
-   <div>
-      {{ YLocale.pageIndex }}
-
+   <YPage>
       <YForm>
          <YFieldText
             v-model="email"
@@ -39,7 +37,7 @@
             style="width: 100%"
          />
       </YForm>
-   </div>
+   </YPage>
 </template>
 
 
