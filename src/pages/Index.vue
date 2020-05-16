@@ -29,7 +29,7 @@
             label="New password"
          />
 
-         <br/>
+         <br>
 
          <YButtonSubmit
             label="Log In"

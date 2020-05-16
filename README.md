@@ -1,3 +1,3 @@
-# Ocromi Template Project
+# Ocromi Starter
 
 Example of project using Ocromi design system
