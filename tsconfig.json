@@ -27,8 +27,7 @@
       }
    },
    "include": [
-      "src/**/*",
-      "../ocromi/src/**/*"
+      "src/**/*"
    ],
    "exclude": [
       "docs",
