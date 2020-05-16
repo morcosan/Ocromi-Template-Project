@@ -1,6 +1,6 @@
 <script lang="ts">
-   import { Component, Vue } from 'vue-property-decorator';
-   import { YForm, YFieldText, YButtonSubmit, YPage } from 'ocromi';
+   import Vue from 'vue';
+   import { Component, YButtonSubmit, YFieldText, YForm, YPage } from 'ocromi';
 
 
    @Component({

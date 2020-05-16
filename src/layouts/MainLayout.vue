@@ -1,6 +1,6 @@
 <script lang="ts">
-   import { Component, Vue } from 'vue-property-decorator';
-   import { YLayout } from 'ocromi';
+   import Vue from 'vue';
+   import { Component, YLayout } from 'ocromi';
 
 
    @Component({
