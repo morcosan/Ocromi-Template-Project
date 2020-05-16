@@ -5,10 +5,10 @@
    "author": "Morco",
    "license": "MIT",
    "scripts": {
-      "serve": "vue-cli-service serve",
-      "build": "vue-cli-service build",
-      "lint": "eslint ./ --ext .js,.ts,.vue",
-      "tsconfig": "node tsconfig.js"
+      "tsconfig": "node tsconfig.js",
+      "serve": "npm run tsconfig && vue-cli-service serve",
+      "build": "npm run tsconfig && vue-cli-service build",
+      "lint": "eslint ./ --ext .js,.ts,.vue"
    },
    "dependencies": {
       "ocromi": "latest",
