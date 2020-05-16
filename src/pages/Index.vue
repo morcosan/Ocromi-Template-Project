@@ -33,7 +33,6 @@
 
          <YButtonSubmit
             label="Log In"
-            will-be-enabled
             style="width: 100%"
          />
       </YForm>

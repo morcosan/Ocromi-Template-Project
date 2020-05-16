@@ -1,9 +1,4 @@
-// All project's sass variables
-
-//@import '~ocromi/src/css/variables';
-
-
-$primary: lightblue;
+$primary: lightgreen;
 $secondary: #26a69a;
 $accent: #9c27b0;
 
@@ -13,3 +8,6 @@ $positive: #21ba45;
 $negative: #c10015;
 $info: #31ccec;
 $warning: #f2c037;
+
+
+@import '~ocromi/src/css/variables';

@@ -14,4 +14,11 @@ module.exports = {
          alias,
       },
    },
+   css: {
+      loaderOptions: {
+         sass: {
+            prependData: '@import "@/css/variables";',
+         },
+      },
+   },
 };
