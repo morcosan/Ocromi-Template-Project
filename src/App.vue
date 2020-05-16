@@ -1,5 +1,5 @@
 <script lang="ts">
-   import { Vue } from 'vue-property-decorator';
+   import Vue from 'vue';
 
 
    export default class App extends Vue {}
@@ -12,5 +12,5 @@
 
 
 <style scoped lang="scss">
-   // @import 'src/css/variables';
+   // no css yet
 </style>

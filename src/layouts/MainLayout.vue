@@ -1,19 +1,22 @@
 <script lang="ts">
-   import { Component, Vue } from 'vue-property-decorator';
+   import Vue from 'vue';
+   import { Component, YLayout } from 'ocromi';
 
 
    @Component({
-      components: {},
+      components: { YLayout },
    })
    export default class MainLayout extends Vue {}
 </script>
 
 
 <template>
-   <router-view/>
+   <YLayout>
+      <router-view/>
+   </YLayout>
 </template>
 
 
 <style scoped lang="scss">
-   // @import 'src/css/variables';
+   // no css yet
 </style>

@@ -1,21 +1,42 @@
 <script lang="ts">
-   import { Component, Vue } from 'vue-property-decorator';
-   import { YFieldText } from 'ocromi';
+   import Vue from 'vue';
+   import { Component, YButtonSubmit, YFieldText, YForm, YPage } from 'ocromi';
 
 
    @Component({
-      components: { YFieldText },
+      components: { YForm, YFieldText, YButtonSubmit, YPage },
    })
-   export default class Index extends Vue {}
+   export default class Index extends Vue {
+
+      public email: string = '';
+      public password: string = '';
+
+   }
 </script>
 
 
 <template>
-   <div>
-      {{ $locale.pageIndex }}
+   <YPage>
+      <YForm>
+         <YFieldText
+            v-model="email"
+            label="Email address"
+            placeholder="email@gmail.com"
+         />
 
-      <YFieldText label="Name"/>
-   </div>
+         <YFieldText
+            v-model="password"
+            label="New password"
+         />
+
+         <br>
+
+         <YButtonSubmit
+            label="Log In"
+            style="width: 100%"
+         />
+      </YForm>
+   </YPage>
 </template>
 
 

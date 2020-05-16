@@ -16,7 +16,7 @@ const i18n = new VueI18n({
 // create global mixin
 Vue.mixin({
    computed: {
-      $locale() {
+      YLocale() {
          // @ts-ignore
          return this.$t('locale');
       },
